@@ -1,0 +1,6 @@
+# Системные зависимости (установите через менеджер пакетов вашего дистрибутива):
+# Arch Linux: sudo pacman -S xdotool xclip
+# Debian/Ubuntu: sudo apt install xdotool xclip
+
+# Python зависимости:
+# В данном проекте используются только встроенные модули (json, subprocess, time, sys, shutil, re).
