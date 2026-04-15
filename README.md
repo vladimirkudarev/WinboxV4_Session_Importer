@@ -81,10 +81,10 @@ python3 wbx2json.py путь_к_файлу.wbx sessions.json
 2. Запустите скрипт импорта:
 
 ```    Bash
-       python3 create_sessions.py
+       python3 create_sessions.py sessions.json
 ```   
 3. У вас будет 15 секунд, чтобы переключить фокус на окно Winbox v4 и поставить курсор в поле "**Connect To**".
-4. Если на экране появится запрос "An application is askinng for special privileges: Control input devices", необходимо ответить "Approve", далее в консоли прервать выполнение скрипта **Ctrl + C** и вернуться к п.2.
+4. Если на экране появится запрос "An application is askinng for special privileges: Control input devices", необходимо ответить "Approve", далее вернуться в консоль и подтвердить готовность и вернуть фокус на первый элемент в поле  "**Connect To**".
 5. Скрипт самостоятельно внесет все сессии в адресную книгу Winbox v4, вам останется только наблюдать за магией. 
 
 
